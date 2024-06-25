@@ -146,3 +146,5 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+ignoreErrors: ["error-remote-getjson"]
