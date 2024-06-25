@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Herena Li</title>
+    <link>https://herenali.github.io/</link>
+    <description>Recent content on Herena Li</description>
+    <image>
+      <title>Herena Li</title>
+      <url>https://herenali.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://herenali.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2024 22:22:23 +0800</lastBuildDate>
+    <atom:link href="https://herenali.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://herenali.github.io/about/</link>
+      <pubDate>Tue, 25 Jun 2024 22:22:23 +0800</pubDate>
+      <guid>https://herenali.github.io/about/</guid>
+      <description>Hello! I&amp;rsquo;m Herena Li, a developer and artist from Hong Kong. I&amp;rsquo;m currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.
+Languages Python, Javascript, HTML/CSS, R
+Tools Visual Studio Code, PyCharm
+Interests I&amp;rsquo;m still relatively new to programming, but right now I&amp;rsquo;m most interested in web development! Other than that, I&amp;rsquo;m interested in learning more about natural language processing (NLP).
+Outside of computer science, I like drawing and doing digital art!</description>
+    </item>
+  </channel>
+</rss>
