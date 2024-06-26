@@ -131,11 +131,16 @@ menu:
     - identifier: github
       name: GitHub
       url: https://github.com/herenali
+      params:
+        external: true
       weight: 40
     - identifier: linkedin
       name: LinkedIn
       url: https://www.linkedin.com/in/herena-li/
       weight: 50
+      params:
+        external: true
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
