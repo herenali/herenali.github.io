@@ -24,12 +24,12 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -37,7 +37,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -98,10 +98,10 @@ params:
     hiddenInSingle: true # hide on single page
     linkFullImages: true
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -146,5 +146,3 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
-ignoreErrors: ["error-remote-getjson"]
