@@ -1,6 +1,7 @@
 +++
 title = 'About'
 date = 2024-06-25T22:22:23+08:00
+hidemeta = true
 draft = false
 +++
 
@@ -8,11 +9,15 @@ Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm currently speci
 
 ## Languages
 
-Python, Javascript, HTML/CSS, R
+- Python
+- Javascript
+- HTML/CSS
+- R
 
 ## Tools
 
-Visual Studio Code, PyCharm
+- Visual Studio Code
+- PyCharm
 
 ## Interests
 

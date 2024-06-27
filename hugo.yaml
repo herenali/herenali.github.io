@@ -41,7 +41,7 @@ params:
   tocopen: false
 
   assets:
-  disableHLJS: false
+    disableHLJS: false
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     # favicon: "favicon.ico"
@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hello! I'm Herena."
-    Content: I'm a developer and an artist. Welcome to my website!
+    Content: I'm a developer and artist from Hong Kong. Welcome to my website!
 
   socialIcons:
     # - name: x
@@ -131,15 +131,11 @@ menu:
     - identifier: github
       name: GitHub
       url: https://github.com/herenali
-      params:
-        external: true
       weight: 40
     - identifier: linkedin
       name: LinkedIn
       url: https://www.linkedin.com/in/herena-li/
       weight: 50
-      params:
-        external: true
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
