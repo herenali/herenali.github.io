@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/css/</loc>
-    <lastmod>2024-06-25T23:16:44+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/discord/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/murr-bot/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nlp/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pandas/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pytorch/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-26T18:49:48+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2024-06-25T23:16:44+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/html/</loc>
@@ -17,13 +44,7 @@
     <loc>http://localhost:1313/tags/procreate/</loc>
     <lastmod>2024-06-25T23:16:44+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2024-06-25T23:16:44+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-25T23:16:44+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/critter_creator/</loc>
+    <loc>http://localhost:1313/projects/critter-creator/</loc>
     <lastmod>2024-06-25T23:16:44+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
