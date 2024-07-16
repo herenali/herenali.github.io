@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Css on Herena Li</title>
-    <link>https://herenali.github.io/tags/css/</link>
-    <description>Recent content in Css on Herena Li</description>
+    <title>React on Herena Li</title>
+    <link>https://herenali.github.io/tags/react/</link>
+    <description>Recent content in React on Herena Li</description>
     <image>
       <title>Herena Li</title>
       <url>https://herenali.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jul 2024 10:20:48 +0800</lastBuildDate>
-    <atom:link href="https://herenali.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://herenali.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gradient Map Filter</title>
       <link>https://herenali.github.io/projects/gradient-map/</link>
       <pubDate>Mon, 15 Jul 2024 10:20:48 +0800</pubDate>
       <guid>https://herenali.github.io/projects/gradient-map/</guid>
       <description>A web app for applying customizable gradient map filters to photos.</description>
-    </item>
-    <item>
-      <title>The Critter Creator</title>
-      <link>https://herenali.github.io/projects/critter-creator/</link>
-      <pubDate>Tue, 25 Jun 2024 23:16:44 +0800</pubDate>
-      <guid>https://herenali.github.io/projects/critter-creator/</guid>
-      <description>A simple dress-up game where players can design their own critter.</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@ MurrBot is an AI chatbot that uses the [Microsoft DialoGPT conversational model]
 
 The GitHub repo for this project can be found [here](https://github.com/herenali/mhyk-discord-chatbot), and the dataset that I used to train this model can be found on [Kaggle](https://www.kaggle.com/datasets/herenali/promise-of-wizard-main-story-script).
 
-This model is hosted on [Hugging Face](https://huggingface.co/herenali/murr-bot). You can chat with it directly in the hosted inference API, or go to [this link](https://huggingface.co/spaces/herenali/murr-bot) to use the demo app hosted on Hugging Face Spaces.
+This model is hosted on [**Hugging Face**](https://huggingface.co/herenali/murr-bot). You can chat with it directly in the hosted inference API, or go to [this link](https://huggingface.co/spaces/herenali/murr-bot) to use the demo app hosted on Hugging Face Spaces.
 
 Alternatively, you can invite the bot to your Discord server by clicking [here](https://huggingface.co/spaces/herenali/murr-discord-bot) and following the listed instructions! Once the bot is added to the server, you can call the bot using /chat and continue chatting with the bot in the created thread.
 
@@ -44,6 +44,6 @@ Initially, my plan was to call Hugging Face's inference API and the Discord API 
 
 Thankfully, there is another way to deploy a Discord bot from a model hosted on Hugging Face. After deploying my model to Hugging Face Spaces, I used the gradio module to deploy my Discord bot. Now, my bot is up and running!
 
-## Final Thoughts
+## Final thoughts
 
 Although things did not go as smoothly as I first expected, I really enjoyed working on this project. With this project now under my belt, I'll hopefully be able to train and fine-tune even better and more impressive models!

@@ -2,22 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Javascript on Herena Li</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>https://herenali.github.io/tags/javascript/</link>
     <description>Recent content in Javascript on Herena Li</description>
     <image>
       <title>Herena Li</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://herenali.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://herenali.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jun 2024 23:16:44 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jul 2024 10:20:48 +0800</lastBuildDate>
+    <atom:link href="https://herenali.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gradient Map Filter</title>
+      <link>https://herenali.github.io/projects/gradient-map/</link>
+      <pubDate>Mon, 15 Jul 2024 10:20:48 +0800</pubDate>
+      <guid>https://herenali.github.io/projects/gradient-map/</guid>
+      <description>A web app for applying customizable gradient map filters to photos.</description>
+    </item>
     <item>
       <title>The Critter Creator</title>
-      <link>http://localhost:1313/projects/critter-creator/</link>
+      <link>https://herenali.github.io/projects/critter-creator/</link>
       <pubDate>Tue, 25 Jun 2024 23:16:44 +0800</pubDate>
-      <guid>http://localhost:1313/projects/critter-creator/</guid>
+      <guid>https://herenali.github.io/projects/critter-creator/</guid>
       <description>A simple dress-up game where players can design their own critter.</description>
     </item>
   </channel>

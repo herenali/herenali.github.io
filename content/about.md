@@ -3,6 +3,7 @@ title = 'About'
 date = 2024-06-25T22:22:23+08:00
 hidemeta = true
 draft = false
+showtoc = false
 +++
 
 Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.
