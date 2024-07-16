@@ -33,13 +33,13 @@ If the filter feels to vibrant or sharp, you can tone down the effect by reducin
 
 Once you're satisfied with the end result, click "Download Image" to download your new image!
 
-## The implementation
+<!-- ## The implementation
 
 > Persistence is key.
 
 Stepping outside of your comfort zone is tough. To be honest, I wanted to give up multiple times while working on this project. I started out coding this project in Python with Django, but I ran into some issues on the way. After lots of failed troubleshooting, I decided to scrap my work and switch to Javascript. Fortunately, the logic for implementing the filter was mosly the same, so my earlier efforts weren't completely wasted. I also wanted to learn React, so I decided to choose it as my framework. Since this was my first time working with React, the React documentation was my best friend. React is also very popular, so lots of useful resources are available online. I still got stuck many times trying to get the filter to work, and nearly gave up when I couldn't get the filtered image to show up properly. At this point, I took a break from the project. As it turns out, taking breaks is one of the most important parts of work! After the break, I gave the project one last shot and things finally started working. Sometimes, not working can be more productive than working.
 
-While working on the website, I also felt the importance of good design. Designers really *do* do tons of work to make apps and websites look good! I decided to settle with a minimalistic and responsive design, but there are still many, many parts I would improve about the design. Actually, my original design looked quite different. It looked fine on my laptop screen, but was unintuitive to work with on a mobile screen. In the end, I revamped the design and added extra CSS to ensure that the size of the gradient and the images were responsive. Responsive design is hard to get right, but looking back, it was completely worth the extra effort!
+While working on the website, I also felt the importance of good design. Designers really *do* do tons of work to make apps and websites look good! I decided to settle with a minimalistic and responsive design, but there are still many, many parts I would improve about the design. Actually, my original design looked quite different. It looked fine on my laptop screen, but was unintuitive to work with on a mobile screen. In the end, I revamped the design and added extra CSS to ensure that the size of the gradient and the images were responsive. Responsive design is hard to get right, but looking back, it was completely worth the extra effort! -->
 
 ## Final thoughts
 
