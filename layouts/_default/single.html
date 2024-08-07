@@ -1,75 +1,64 @@
-{{- define "main" }}
+{{ define "main" }}
+	<div class="row flex-xl-nowrap">
+		{{ if (in site.Params.doks.sectionNav .Section) -}}
+		<div class="col-lg-5 col-xl-4 docs-sidebar{{ if ne site.Params.doks.navbarSticky true }} docs-sidebar-top{{ end }}{{ if site.Params.doks.headerBar }} docs-sidebar-offset{{ end }} d-none d-lg-block">
+			{{ partial "sidebar/section-menu.html" . }}
+		</div>
+		{{ end -}}
+		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
+			<div class="col container-fw d-lg-flex flex-lg-row justify-content-center mx-auto">
+		{{ end }}
+		{{ if ne .Params.toc false -}}
+		<nav class="docs-toc{{ if ne site.Params.doks.navbarSticky true }} docs-toc-top{{ end }}{{ if site.Params.doks.headerBar }} docs-toc-offset{{ end }} d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			{{ partial "sidebar/docs-toc-desktop.html" . }}
+		</nav>
+		{{ end -}}
+		{{ if .Params.toc -}}
+		<main class="docs-content col-lg-11 col-xl-9">
+		{{ else -}}
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+		{{ end -}}
+			{{ if site.Params.doks.breadcrumbTrail -}}
+				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						{{ partial "main/breadcrumb" . -}}
+						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+					</ol>
+				</nav>
+			{{ end }}
+			<h1>{{ .Title }}</h1>
+			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
+			{{ if ne .Params.toc false -}}
+			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+				{{ partial "sidebar/docs-toc-mobile.html" . }}
+			</nav>
+			{{ end -}}
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQK0HGB2L8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SQK0HGB2L8');
-</script>
-
-<article class="post-single">
-  <header class="post-header">
-    {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title entry-hint-parent">
-      {{ .Title }}
-      {{- if .Draft }}
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-      {{- end }}
-    </h1>
-    {{- if .Description }}
-    <div class="post-description">
-      {{ .Description }}
-    </div>
-    {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <div class="post-meta">
-      {{- partial "post_meta.html" . -}}
-      {{- partial "translation_list.html" . -}}
-      {{- partial "edit_post.html" . -}}
-      {{- partial "post_canonical.html" . -}}
-    </div>
-    {{- end }}
-  </header>
-  {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
-  {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
-  {{- end }}
-
-  {{- if .Content }}
-  <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
-  </div>
-  {{- end }}
-
-  <footer class="post-footer">
-    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
-    {{- end }}
-  </footer>
-
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
-</article>
-
-{{- end }}{{/* end main */}}
+			{{ if site.Params.doks.headlineHash -}}
+				{{ partial "main/headline-hash" .Content }}
+			{{ else -}}
+				{{ .Content }}
+			{{ end -}}
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				{{ if site.Params.doks.lastMod -}}
+					{{ partial "main/last-modified.html" . }}
+				{{ end -}}
+				{{ if site.Params.doks.editPage -}}
+					{{ partial "main/edit-page.html" . }}
+				{{ end -}}
+			</div>
+			{{/*  {{ partial "main/docs-navigation.html" . }}  */}}
+			<!--
+			{{ if not .Site.Params.options.collapsibleSidebar -}}
+				{{ partial "main/docs-navigation.html" . }}
+			{{ else -}}
+				<div class="my-n3"></div>
+			{{ end -}}
+			-->
+		</main>
+		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
+			</div>
+		{{ end }}
+	</div>
+{{ end }}

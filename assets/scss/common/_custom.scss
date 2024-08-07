@@ -1,0 +1,179 @@
+// Put your custom SCSS code here
+
+// Projects list //
+.projects.list .card,
+.projects.single .card {
+  margin-top: 2rem;
+  transition: transform 0.3s;
+  // width: calc(50% - 1rem); // Adjusted width to accommodate space between cards
+  float: left;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  // margin-right: 2rem; // Added margin between cards
+}
+
+.projects.list .content .card:hover,
+.projects.single .content .card:hover {
+  transform: scale(1.025);
+}
+
+.projects.list .content .card-body,
+.projects.single .content .card-body {
+  padding: 0 2rem 1rem;
+}
+
+// Remove the right margin from the last card in the row
+.projects.list .card:nth-child(2n),
+.projects.single .card:nth-child(2n) {
+  margin-right: 0;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-wrapper {
+  display: inline;
+  flex-direction: column;
+  min-width: calc(50% - 1rem);
+  float: left;
+  box-sizing: border-box;
+}
+
+.projects-link-wrapper {
+  padding: 1rem;
+  margin-right: 2rem;
+  float: right;
+}
+
+.projects-link {
+  display: inline;
+}
+
+.card:hover {
+  transform: scale(1.025);
+}
+
+.homepage-card {
+  margin-bottom: 1rem;
+}
+
+// Link formatting //
+p > a {
+  text-decoration: underline;
+}
+
+// Homepage tech cards //
+.homepage-header {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-card {
+  min-width: 10rem;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.tech-card svg {
+  width: 48px;
+  height: 48px;
+}
+
+// Experience timeline //
+// @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
+
+// body {
+// 	font-size: 14px;
+// 	line-height: 1.5;
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+// 	font-family: 'Oswald', sans-serif;
+// }
+
+// h1 {
+// 	font-size: 2rem;
+// 	margin-bottom: .5em;
+// }
+
+// p {
+// 	font-family: 'Roboto', sans-serif;
+// 	font-size: .8rem;
+// }
+
+.timeline-container {
+	max-width: 1024px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+$border-color: #c1c3c8;
+
+.timeline-item {
+	padding: 3em 2em 2em;
+	position: relative;
+	// color: rgba(black, .7);
+	border-left: 2px solid $border-color;
+
+	p {
+		font-size: 1rem;
+    i {
+      font-size: 1.2rem;
+    }
+	}
+
+	&::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 1em;
+		display: block;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: .785rem;
+	}
+
+	&::after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid $border-color;
+		background: white;
+	}
+
+	&:last-child {
+		border-image: linear-gradient(
+			to bottom,
+			$border-color 60%,
+			rgba($border-color, 0)) 1 100%
+		;
+	}
+
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}

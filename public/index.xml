@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Herena Li</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Herena Li</description>
-    <image>
-      <title>Herena Li</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 10:20:48 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <title>Hello! I&#39;m Herena. on Herena Li</title>
+    <link>/</link>
+    <description>Recent content in Hello! I&#39;m Herena. on Herena Li</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Tue, 06 Aug 2024 09:49:10 +0800</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experience</title>
+      <link>/experience/</link>
+      <pubDate>Tue, 06 Aug 2024 09:49:10 +0800</pubDate>
+      <guid>/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 04 Aug 2024 18:11:52 +0800</pubDate>
+      <guid>/about/</guid>
+      <description>Hello! I&amp;rsquo;m Herena Li, a developer and artist from Hong Kong. I&amp;rsquo;m currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.</description>
+    </item>
     <item>
       <title>Gradient Map Filter</title>
-      <link>http://localhost:1313/projects/gradient-map/</link>
-      <pubDate>Mon, 15 Jul 2024 10:20:48 +0800</pubDate>
-      <guid>http://localhost:1313/projects/gradient-map/</guid>
+      <link>/projects/gradient-map/</link>
+      <pubDate>Mon, 15 Jul 2024 19:36:33 +0800</pubDate>
+      <guid>/projects/gradient-map/</guid>
       <description>A web app for applying customizable gradient map filters to photos.</description>
     </item>
     <item>
       <title>MurrBot</title>
-      <link>http://localhost:1313/projects/murr-bot/</link>
-      <pubDate>Wed, 26 Jun 2024 18:49:48 +0800</pubDate>
-      <guid>http://localhost:1313/projects/murr-bot/</guid>
+      <link>/projects/murr-bot/</link>
+      <pubDate>Wed, 26 Jun 2024 19:35:39 +0800</pubDate>
+      <guid>/projects/murr-bot/</guid>
       <description>An AI Chatbot fine-tuned on lines of the character Murr from the Japanese mobile game Promise of Wizard.</description>
     </item>
     <item>
       <title>The Critter Creator</title>
-      <link>http://localhost:1313/projects/critter-creator/</link>
-      <pubDate>Tue, 25 Jun 2024 23:16:44 +0800</pubDate>
-      <guid>http://localhost:1313/projects/critter-creator/</guid>
+      <link>/projects/critter-creator/</link>
+      <pubDate>Tue, 25 Jun 2024 19:33:57 +0800</pubDate>
+      <guid>/projects/critter-creator/</guid>
       <description>A simple dress-up game where players can design their own critter.</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 25 Jun 2024 22:22:23 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Hello! I&amp;rsquo;m Herena Li, a developer and artist from Hong Kong. I&amp;rsquo;m currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.
-Languages Python Javascript HTML/CSS R Tools Visual Studio Code PyCharm Interests I&amp;rsquo;m still relatively new to programming, but right now I&amp;rsquo;m most interested in web development! Other than that, I&amp;rsquo;m interested in learning more about natural language processing (NLP).
-Outside of computer science, I like drawing and doing digital art!</description>
     </item>
   </channel>
 </rss>

@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pandas on Herena Li</title>
-    <link>http://localhost:1313/tags/pandas/</link>
+    <link>/tags/pandas/</link>
     <description>Recent content in Pandas on Herena Li</description>
-    <image>
-      <title>Herena Li</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2024 18:49:48 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 19:35:39 +0800</lastBuildDate>
+    <atom:link href="/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MurrBot</title>
-      <link>http://localhost:1313/projects/murr-bot/</link>
-      <pubDate>Wed, 26 Jun 2024 18:49:48 +0800</pubDate>
-      <guid>http://localhost:1313/projects/murr-bot/</guid>
+      <link>/projects/murr-bot/</link>
+      <pubDate>Wed, 26 Jun 2024 19:35:39 +0800</pubDate>
+      <guid>/projects/murr-bot/</guid>
       <description>An AI Chatbot fine-tuned on lines of the character Murr from the Japanese mobile game Promise of Wizard.</description>
     </item>
   </channel>

@@ -1,93 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Herena Li</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Herena Li</description>
-    <image>
-      <title>Herena Li</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 10:20:48 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 19:36:33 +0800</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Css</title>
-      <link>http://localhost:1313/tags/css/</link>
+      <link>/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/css/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>http://localhost:1313/tags/html/</link>
+      <link>/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/html/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
+      <link>/tags/react/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/react/</guid>
+      <guid>/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Discord</title>
-      <link>http://localhost:1313/tags/discord/</link>
+      <link>/tags/discord/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/discord/</guid>
+      <guid>/tags/discord/</guid>
       <description></description>
     </item>
     <item>
       <title>NLP</title>
-      <link>http://localhost:1313/tags/nlp/</link>
+      <link>/tags/nlp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nlp/</guid>
+      <guid>/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandas</title>
-      <link>http://localhost:1313/tags/pandas/</link>
+      <link>/tags/pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pandas/</guid>
+      <guid>/tags/pandas/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Pytorch</title>
-      <link>http://localhost:1313/tags/pytorch/</link>
+      <link>/tags/pytorch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Procreate</title>
-      <link>http://localhost:1313/tags/procreate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/procreate/</guid>
+      <guid>/tags/pytorch/</guid>
       <description></description>
     </item>
   </channel>
