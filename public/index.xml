@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello! I&#39;m Herena. on Herena Li</title>
-    <link>/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Hello! I&#39;m Herena. on Herena Li</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Hyas</copyright>
     <lastBuildDate>Tue, 06 Aug 2024 09:49:10 +0800</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experience</title>
-      <link>/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 06 Aug 2024 09:49:10 +0800</pubDate>
-      <guid>/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 04 Aug 2024 18:11:52 +0800</pubDate>
-      <guid>/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Hello! I&amp;rsquo;m Herena Li, a developer and artist from Hong Kong. I&amp;rsquo;m currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.</description>
     </item>
     <item>
       <title>Gradient Map Filter</title>
-      <link>/projects/gradient-map/</link>
+      <link>http://localhost:1313/projects/gradient-map/</link>
       <pubDate>Mon, 15 Jul 2024 19:36:33 +0800</pubDate>
-      <guid>/projects/gradient-map/</guid>
+      <guid>http://localhost:1313/projects/gradient-map/</guid>
       <description>A web app for applying customizable gradient map filters to photos.</description>
     </item>
     <item>
       <title>MurrBot</title>
-      <link>/projects/murr-bot/</link>
+      <link>http://localhost:1313/projects/murr-bot/</link>
       <pubDate>Wed, 26 Jun 2024 19:35:39 +0800</pubDate>
-      <guid>/projects/murr-bot/</guid>
+      <guid>http://localhost:1313/projects/murr-bot/</guid>
       <description>An AI Chatbot fine-tuned on lines of the character Murr from the Japanese mobile game Promise of Wizard.</description>
     </item>
     <item>
       <title>The Critter Creator</title>
-      <link>/projects/critter-creator/</link>
+      <link>http://localhost:1313/projects/critter-creator/</link>
       <pubDate>Tue, 25 Jun 2024 19:33:57 +0800</pubDate>
-      <guid>/projects/critter-creator/</guid>
+      <guid>http://localhost:1313/projects/critter-creator/</guid>
       <description>A simple dress-up game where players can design their own critter.</description>
     </item>
   </channel>
