@@ -1,7 +1,7 @@
 ---
 title: "The Critter Creator"
-description: "A simple dress-up game where players can design their own critter."
-summary: "A simple dress-up game where players can design their own critter."
+description: "A dress-up game where players can design their own critter."
+summary: "A dress-up game where players can design their own critter."
 date: 2024-06-25T19:33:57+08:00
 lastmod: 2024-08-04T19:33:57+08:00
 draft: false
@@ -15,7 +15,7 @@ github: 'https://github.com/herenali/critter-creator'
 demo: 'https://critter-creator.surge.sh/'
 seo:
   title: "The Critter Creator" # custom title (optional)
-  description: "A simple dress-up game where players can design their own critter." # custom description (recommended)
+  description: "A dress-up game where players can design their own critter." # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

@@ -12,18 +12,24 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.
+Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm a second-year student currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.
+
+I've always loved making and creating things. As a child, I loved DIY-ing and made all sorts of stuff, from bead necklaces to clay figures. Admittedly, they didn't look very good, but I still enjoyed having made something with my own two hands. Eventually, I got into drawing and started creating my own ilustrations and even original characters.
+
+When I first learned about programming, I didn't expect to get very invested - after all, it seemed like something quite different from my other hobbies. Yet, as I learned more, I realized coding and my other hobbies shared something in common - they were all about *creating* something. Connected by string, hundreds of individual beads come together to become a necklace. On pieces of paper, thousands of strokes shape a picture. On a computer, millions of ones and zeroes form the basis of the program which I am currently using to type all of this out. I became fascinated by just how much a girl with a laptop and a dream could create.
+
+Right now, I'm most interested in full-stack web development. Other than that, I'm interested in learning more about natural language processing (NLP), and I'm always looking to learn new things!
 
 ## Skills
-
-### Languages
 
 - Python
 - Javascript
 - HTML/CSS
+- React
 - R
+- SQL
 
-### Developer Tools
+## Developer Tools
 
 - Git
 - Visual Studio Code
@@ -31,10 +37,8 @@ Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm currently speci
 
 ## Interests
 
-I'm still relatively new to programming, but right now I'm most interested in web development! Other than that, I'm interested in learning more about natural language processing (NLP).
+Outside of computer science, I like drawing and doing digital art! I have been drawing for over 8 years and am familiar with various digital art programs, like Adobe Photoshop, Clip Studio Paint and Procreate.
 
-Outside of computer science, I like drawing and doing digital art! I'm familiar with various digital art programs, like Adobe Photoshop, Clip Studio Paint and Procreate.
+![Art of Hello Kitty flying through space](hello-kitty.jpeg)
 
-## Fun Facts
-
-I'm a big fan of Hello Kitty! I'm also into anime and manga. My latest obsession is the Japanese mobile game Promise of Wizard, which is receiving an anime adaptation soon!
+As you can probably tell from the picture, I'm a big fan of Hello Kitty! I'm also into anime, manga and gacha games. My personal recommendation is the Japanese mobile game Promise of Wizard, which is receiving an anime adaptation soon! (My MurrBot project was also inspired by this game!)
