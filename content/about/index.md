@@ -14,7 +14,7 @@ seo:
 
 Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm a second-year student currently specialising in Computer Science and minoring in Linguistics at the University of Toronto.
 
-I've always loved making and creating things. As a child, I loved DIY-ing and made all sorts of stuff, from bead necklaces to clay figures. Admittedly, they didn't look very good, but I still enjoyed having made something with my own two hands. Eventually, I got into drawing and started creating my own ilustrations and even original characters.
+I've always loved making and creating things. As a child, I loved DIY-ing and made all sorts of stuff, from bead necklaces to clay figures. Admittedly, they didn't look very good, but I still enjoyed having made something with my own two hands. Eventually, I got into drawing and started creating my own illustrations and even original characters.
 
 When I first learned about programming, I didn't expect to get very invested - after all, it seemed like something quite different from my other hobbies. Yet, as I learned more, I realized coding and my other hobbies shared something in common - they were all about *creating* something. Connected by string, hundreds of individual beads come together to become a necklace. On pieces of paper, thousands of strokes shape a picture. On a computer, millions of ones and zeroes form the basis of the program which I am currently using to type all of this out. I became fascinated by just how much a girl with a laptop and a dream could create.
 
