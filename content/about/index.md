@@ -26,18 +26,22 @@ Right now, I'm most interested in full-stack development. Other than that, I'm i
 
 - Python
 - Java
-- C
-- Javascript
-- HTML/CSS
-- R
 - SQL
+- Javascript
+- Typescript
+- HTML/CSS
+- C
+- Haskell
+- R
 - Assembly
 
 ### Frameworks
 
 - React
 - Node.js
+- Spring Boot
 - JUnit
+- FastAPI
 - WordPress
 
 ### Developer Tools
@@ -47,6 +51,8 @@ Right now, I'm most interested in full-stack development. Other than that, I'm i
 - Visual Studio Code
 - PyCharm
 - IntelliJ
+- WebStorm
+- Postman
 
 ## Interests
 
