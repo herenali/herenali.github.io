@@ -16,12 +16,12 @@
     "@hyas/images": "^3.2.0",
     "@hyas/inline-svg": "^1.1.0",
     "@hyas/seo": "^2.3.0",
-    "@tabler/icons": "^3.2.0",
+    "@tabler/icons": "^3.44.0",
     "gethyas": "^2.4.2"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "vite": "^6.4.3"
+    "prettier": "^3.9.4",
+    "vite": "^8.1.2"
   },
   "engines": {
     "node": ">=20.11.0"
