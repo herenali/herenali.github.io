@@ -5,7 +5,7 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    footer = '<span>© 2024 <a href="/">Herena Li</a> · <a href="https://github.com/herenali" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/herena-li/" target="_blank">LinkedIn</a></span>'
+    footer = '<span>© 2026 <a href="/">Herena Li</a> · <a href="https://github.com/herenali" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/herena-li/" target="_blank">LinkedIn</a></span>'
     alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Thanks for visiting my website!</a>'
 
 # [de]
