@@ -26,21 +26,20 @@ Right now, I'm most interested in full-stack development. Other than that, I'm i
 
 - Python
 - Java
-- SQL
 - Javascript
 - Typescript
 - HTML/CSS
-- C
 - Haskell
-- R
-- Assembly
+- C
+- SQL
 
 ### Frameworks
 
 - React
+- Angular
 - Node.js
+- NestJS
 - Spring Boot
-- JUnit
 - FastAPI
 - WordPress
 
@@ -49,15 +48,19 @@ Right now, I'm most interested in full-stack development. Other than that, I'm i
 - Git
 - GitHub
 - Visual Studio Code
-- PyCharm
-- IntelliJ
-- WebStorm
+- JetBrains suite
 - Postman
+
+### Miscellaneous Tools
+
+- Microsoft 365 suite
+- Figma
+- Adobe Photoshop
 
 ## Interests
 
-Outside of computer science, I like drawing and doing digital art! I have been drawing for over 8 years and am familiar with various digital art programs, like Adobe Photoshop, Clip Studio Paint and Procreate.
+Outside of computer science, I like drawing and doing digital art! I have been drawing for over 8 years and am familiar with various digital art programs, like Adobe Photoshop, Clip Studio Paint and Procreate. I also love doing anything creative.
 
 ![Art of Hello Kitty flying through space](hello-kitty.jpeg)
 
-As you can probably tell from the picture, I'm a big fan of Hello Kitty! I'm also into anime, manga and gacha games. My personal recommendation is the Japanese mobile game Promise of Wizard. (My MurrBot project was also inspired by this game!)
+As you can probably tell from the picture, I'm a big fan of Hello Kitty!
