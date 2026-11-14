@@ -1,6 +1,115 @@
 // Put your custom SCSS code here
 
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // text-transform: lowercase;
+
+  /* Grid bg */
+  background-size: 32px 32px;
+  background-image:
+    linear-gradient(to right, var(--primary-light) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--primary-light) 1px, transparent 1px);
+}
+
+// TODO: fix bug where navbar links disappear on smaller-width screens
+// Navbar
+.navbar {
+  // box-sizing: border-box;
+  // width: 100%;
+  // height: 68px;
+  // padding: 0 24px;
+
+  // display: flex;
+  // align-items: center;
+  // gap: 10px;
+
+  // position: sticky;
+  // top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  // backdrop-filter: saturate(180%) blur(12px);
+  // -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--border);
+  // z-index: 10;
+}
+
+.navbar-brand {
+  font-family: "Bukhari Script";
+  font-size: 1.5rem;
+  letter-spacing: .025em;
+  margin-right: auto;
+  color: var(--dark-green);
+  font-weight: 400;
+}
+
+// .btn-link, .nav-item .nav-link {
+//   display: inline-block;
+//   position: relative;
+//   font-size: .9rem;
+//   text-decoration: none;
+//   text-transform: lowercase;
+//   color: var(--muted-foreground);
+// }
+
+// Hover underline
+.nav-item .nav-link:not(.social-link) {
+  display: inline-block;
+  position: relative;
+  font-size: .9rem;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: var(--muted-foreground);
+}
+
+.nav-item .nav-link:not(.social-link)::after {
+  content: '';
+  position: absolute;
+  // TODO: fix underline width in side bar
+  width: calc(100% - var(--bs-navbar-nav-link-padding-x) * 2);
+  height: 1px;
+  bottom: 10px;
+  left: var(--bs-navbar-nav-link-padding-x);
+  background-color: var(--bs-nav-link-color);
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item .nav-link:not(.social-link):hover::after {
+  transform: scaleX(1);
+}
+
+@include media-breakpoint-down(lg) {
+  .navbar .offcanvas .navbar-nav .nav-item .nav-link:not(.social-link)::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
+// Tags
+.btn-light {
+  color: var(--primary-foreground);
+  background-color: var(--primary);
+  border-color: var(--primary);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-foreground);
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+  }
+}
+
 // Projects list //
+.card {
+  border-style: dashed;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 .projects.list .card,
 .projects.single .card {
   margin-top: 2rem;
