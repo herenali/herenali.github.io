@@ -17,4 +17,5 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+A list of projects that I have worked on, both personal and collaborative.\
 Click on each project to learn more!
