@@ -92,9 +92,12 @@ body {
 
 // Tags
 .btn-light {
-  color: var(--primary-foreground);
-  background-color: var(--primary);
-  border-color: var(--primary);
+  // color: var(--primary-foreground);
+  // background-color: var(--primary);
+  // border-color: var(--primary);
+  background-color: var(--border);
+  border-color: var(--border);
+
 
   &:hover,
   &:focus {
