@@ -49,7 +49,7 @@ TL;DR: Upload a pic, choose a gradient, and customize to your heart's desire!
 
 To upload your own image to apply a filter to, click on the "Choose file" button and pick an image.
 
-The web app includes 6 default gradients which can be freely customized. **Switch between these 6 gradients by clicking on the gradient swatches at the side of the screen. To change a color in the gradient, scroll to the "Custom Gradient" section. Click on a color swatch above the gradient bar and choose a new color using the color picker**.
+The web app includes 6 default gradients which can be freely customized. **Switch between these 6 gradients by clicking on the gradient swatches on the side of the screen. To change a color in the gradient, scroll to the "Custom Gradient" section. Click on a color swatch above the gradient bar and choose a new color using the color picker**.
 
 To add or remove a color from the gradient, click on the buttons "Add Color" or "Remove Color". Colors are added and removed starting from the rightmost color. Note that each gradient needs to have a minimum of 2 colors.
 
