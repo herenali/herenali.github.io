@@ -1,5 +1,5 @@
 ---
-title: "Memory Viz"
+title: "MemoryViz"
 description: "A visualization tool that generates memory model diagrams for Python code."
 summary: "A visualization tool that generates memory model diagrams for Python code."
 date: 2026-04-14T16:57:30-05:00
