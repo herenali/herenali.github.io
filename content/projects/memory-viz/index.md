@@ -21,8 +21,8 @@ seo:
 ---
 ## Overview
 
-![A diagram generated in MemoryViz](sample-diagram.png)
+My second project on the SDS team.
 
-<!-- My second project on the SDS team. -->
+![A diagram generated in MemoryViz](sample-diagram.png)
 
 <!-- ### Accessibility -->

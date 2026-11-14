@@ -21,7 +21,7 @@ seo:
 ---
 ## Overview
 
-I developed new features for [PythonTA](https://github.com/pyta-uoft/pyta) as a member of the Students Developing Software (SDS) Team at the University of Toronto under the mentorship of Professor David Liu.
+I developed new features for [PythonTA](https://github.com/pyta-uoft/pyta) as a member of the Students Developing Software (SDS) Team at the University of Toronto.
 
 ![The PythonTA web report](web-report.png)
 
