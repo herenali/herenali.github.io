@@ -46,14 +46,14 @@ body {
   font-weight: 400;
 }
 
-// .btn-link, .nav-item .nav-link {
-//   display: inline-block;
-//   position: relative;
-//   font-size: .9rem;
-//   text-decoration: none;
-//   text-transform: lowercase;
-//   color: var(--muted-foreground);
-// }
+.btn-link, .nav-item .nav-link {
+  display: inline-block;
+  position: relative;
+  font-size: .9rem;
+  // text-decoration: none;
+  // text-transform: lowercase;
+  // color: var(--muted-foreground);
+}
 
 // Hover underline
 .nav-item .nav-link:not(.social-link) {
