@@ -4,7 +4,7 @@ description: "An AI Chatbot fine-tuned on lines of the character Murr from the J
 summary: "An AI Chatbot fine-tuned on lines of the character Murr from the Japanese mobile game Promise of Wizard."
 date: 2024-06-26T19:35:39+08:00
 lastmod: 2024-08-04T19:35:39+08:00
-draft: false
+draft: true
 categories: []
 tags: ['python', 'pandas', 'pytorch', 'AI', 'NLP', 'discord']
 contributors: []

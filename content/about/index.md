@@ -12,7 +12,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Hello! I'm Herena Li, a developer and artist from Hong Kong. I'm an upcoming third-year student specialising in Computer Science at the University of Toronto.
+Hello! I'm Herena, a developer and artist from Hong Kong. I'm a fourth-year student specialising in Computer Science at the University of Toronto.
 
 I've always loved making and creating things. As a child, I loved DIY-ing and made all sorts of stuff, from bead necklaces to clay figures. Admittedly, they didn't look very good, but I still enjoyed having made something with my own two hands. Eventually, I got into drawing and started creating my own illustrations and even original characters.
 
