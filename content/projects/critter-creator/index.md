@@ -6,7 +6,7 @@ date: 2024-06-25T19:33:57+08:00
 lastmod: 2024-08-04T19:33:57+08:00
 draft: false
 categories: []
-tags: ['javascript', 'html', 'css', 'procreate']
+tags: ['personal', 'javascript', 'html', 'css', 'procreate']
 contributors: []
 pinned: false
 homepage: false

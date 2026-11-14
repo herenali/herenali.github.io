@@ -6,7 +6,7 @@ date: 2024-06-26T19:35:39+08:00
 lastmod: 2024-08-04T19:35:39+08:00
 draft: true
 categories: []
-tags: ['python', 'pandas', 'pytorch', 'AI', 'NLP', 'discord']
+tags: ['personal', 'python', 'pandas', 'pytorch', 'AI', 'NLP', 'discord']
 contributors: []
 pinned: false
 homepage: false
